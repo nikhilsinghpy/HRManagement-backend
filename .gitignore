@@ -1,0 +1,11 @@
+# Node dependencies
+node_modules/
+
+# Environment configuration
+
+.env
+.env.development
+.env.production
+temp/
+keys.json
+logs/
