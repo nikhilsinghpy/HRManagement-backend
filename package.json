@@ -1,4 +1,23 @@
 {
+  "name": "hrmanagement-backend",
+  "version": "1.0.0",
+  "description": "skillh",
+  "main": "ecosystem.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nikhilsinghpy/HRManagement-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/nikhilsinghpy/HRManagement-backend/issues"
+  },
+  "homepage": "https://github.com/nikhilsinghpy/HRManagement-backend#readme",
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cookie-parser": "^1.4.7",
@@ -6,7 +25,9 @@
     "dotenv": "^17.2.3",
     "dotenv-flow": "^4.1.0",
     "express": "^5.1.0",
-    "mongoose": "^8.19.1",
+    "mongoose": "^8.19.1"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.10"
   }
 }
